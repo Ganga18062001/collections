@@ -1,0 +1,141 @@
+--------------Data structure----------
+-It is the way by which we can store the data in efficient way;
+-efficient means time and space
+
+Types of data structure  :-
+
+1)Primitive  Data structure
+Eg- boolean,byte,short,int,long,
+float,double,char
+
+
+
+2) Non primitive data structure
+
+1) Linear DS
+Eg.String ,Array,List,Set,
+Queue,Array list,Link list,
+hash set,linked hash set
+
+2)Non-Linear DS
+
+Eg.Graph,Trees
+
+
+----------Diffrence bitween array vs collection framework-----
+
+           Array                                 Collectiion framework
+
+-Array can store primitive and non-         - in collection framework we can store only non-primitive type of data.
+primitive data .
+
+-Array can store only homogenous type of     - we can store heterogeneous type of data.
+data.
+
+-Array size is fixed , we can not be         - we can increase or decrease the size of collections at runtime.
+increase or decrease the size of array
+at runtime.
+
+
+------------collection framework------------------
+
+-It is set of predefined class and interface which is used to
+store multiple data.
+
+-Collection is an interface which is present in java.util package.
+syntax -
+        public interface Collection<E> extends Iterable<E>{
+        //methods
+        }
+
+-It contain 2 main parts
+
+1) java.util.collection
+2) java.util.map
+
+---------Heirchy diagram oof collection-------------
+
+
+                                       Iterable (interface)
+                                              |
+                                          Collection (interface)
+                             ------------------------------------------------------------------------------------------------
+                               |                                  |                                       |
+                             List                                Set                                     Queue
+                               |                                  |                                       |
+                         ------------------------      ------------- ----------------           ------------------------
+                         |            |        |          |         |             |                   |             |
+                       ArrayList LinkedList  Vector      HashSet LinkedHashSet TreeSet           PriorityQueue   Deque
+                                               |                                  |                               |
+                                             Stack                           ArraySet                          ArrayDeque
+
+
+
+
+
+------------------------Map Hierarchy -------------------------
+
+                                      Map (interface)
+                            ---------------------------------
+                            |               |              |
+                         HashMap       LinkedHashMap     SortedMap
+                                                              |
+                                                           TreeMap
+
+
+ ------------Difference bitween list vs set----------------------
+
+                       List                                      Set
+ -----------------------------------------------------------------------------------------------------
+ -List is index based data structure.                      - Set is not index based data structure,It store
+                                                              the data according to the hashcode values.
+ -List can store duplicates elements.                      - Set does not allow to store duplicates elements.
+
+
+ -List can store multiple null values.                 - Set can store only one null value
+
+ -List follow the insertion order.                      - Set does not follow the insertion order
+
+ -we can retrieve list element using Iterator            - In set , retrieve element using Iterator
+ and ListIterator.
+
+
+ ----------------cursors---------------------------
+ Types of cursor
+ 1)iterator  2)ListIterator      3)Enumeration
+
+----------------------------------------------------------------------------------------------------------------------------
+                     iterator                                                    ListIterator
+-------------------------------------------------------------------------------------------------------------------------------
+
+-we can get iterator cursor using                                - we can get ListIterator cursor uisng ListItaerator()
+iterator() method.                                                 method.
+
+-Iterator cursor can be used with any collection                 - ListIterator cursor can be used with list implemented
+object.                                                            classes like ArrayList ,LinkList,stack,vector
+
+-Iterator method is hasNext(),next(),                            - ListIterator method is hashNext(),next(),remove()
+remove().                                                          hashPrevious(),previous(),set()
+
+-By using Iterator cursor , we can retrieve                     - By using ListIterator cursor ,we can retrieve element
+element only in forward direction.                                forward and backward direction.
+
+
+
+---------------------Enumeration cursor------------------
+-Enumeration is a cursor , which is used to retrive
+collection object one by one.
+
+-Enumeration was introduce in jdk 10 version.
+
+-Enumeration cursor is used with legacy classes
+i.e vector and stack.
+
+-In this cursor , we have retrive element using
+element() method.
+
+-Methods of enumerator cursor is hasMoreElement(),nextElement();
+
+- In this cursor we have only retrive elemnt in forward direction.
+
+-this cursor used only for read opearation.
