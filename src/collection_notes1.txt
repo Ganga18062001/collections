@@ -115,7 +115,7 @@ iterator() method.                                                 method.
 object.                                                            classes like ArrayList ,LinkList,stack,vector
 
 -Iterator method is hasNext(),next(),                            - ListIterator method is hashNext(),next(),remove()
-remove().                                                          hashPrevious(),previous(),set()
+remove().                                                          hashPrevious(),previous(),set().
 
 -By using Iterator cursor , we can retrieve                     - By using ListIterator cursor ,we can retrieve element
 element only in forward direction.                                forward and backward direction.

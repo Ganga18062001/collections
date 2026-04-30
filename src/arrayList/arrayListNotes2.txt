@@ -1,0 +1,37 @@
+-ArrayList is an implemented class of list  interface which is present
+in java.util package.
+
+syntax : -
+
+package java.util;
+
+class ArrayList implements List{
+
+//constructor
+//methods
+}
+
+
+-ArryList is created on the basic of growable resizable array.
+
+
+----------property of arraylist-------------
+
+-ArrayList is index based data structure.
+
+-ArrayList can be store heterogeneous data-types.
+
+-ArryList can be store duplicates values.
+
+-we can store multiple null values.
+
+-It is follow the insertion order.
+
+-ArrayList does not follows the sorting order.
+
+-Arraylist are non-synchronized
+
+
+
+--------------methods and constructor of arrayList---------------------
+

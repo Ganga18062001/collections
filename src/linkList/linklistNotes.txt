@@ -1,0 +1,38 @@
+----------LinkList--------------------------
+
+-linklist is an implemented class of list interface, which is present
+in java.util package.
+
+syntax -
+
+class LinkList implements list,Deque{
+
+//constructor
+//method
+}
+
+-The underline data structure of linklist is "doubly linked list" and
+"circular linked list".
+
+null deepak 1002(next node addr)       1002(prev node addr)  rahul 1003(n n adr)   1002 ram  1004
+
+-----advantages--------
+-Insertion and deletion operation are fast.
+-we can traverses list in forward and backward direction both.
+
+
+
+--------------disadvantages-------------
+
+-It occupy extra space for previous node address.
+-when we have insert and delete element in bitween , we
+have to manage previous and next node address
+
+------properties of linkList-----------
+-linkedList is index based data structure.
+-Linked list can store heterogeneous element.
+-Linklist can store duplicate element
+-Linklist can store multiple null values.
+-Linklist follow the insertion order.
+-Linklist does not follow the sorting order.
+-linklist are non-synchronied collection.

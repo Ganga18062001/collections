@@ -32,18 +32,19 @@ public class ListCursor {
         System.out.println("------------------------------------------");
         while (ll.hasPrevious()){
             System.out.print(ll.previous()+" ");
+
         }
         System.out.println();
 //        li.add(20.2);
 //        System.out.print(li+" ");
         System.out.println("----------------------------------");
-        li.set(3,50);
+       ll.set(50);
 
 
         System.out.println(li);
 
-        li.remove(0);
-        System.out.print(li+" ");
+//        li.remove(0);
+//        System.out.print(li+" ");
 
     }
 }
