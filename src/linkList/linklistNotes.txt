@@ -36,3 +36,24 @@ have to manage previous and next node address
 -Linklist follow the insertion order.
 -Linklist does not follow the sorting order.
 -linklist are non-synchronied collection.
+
+
+
+
+
+
+------------------------Diffrence bitween ArrayList vs Linklist-------------------------
+
+                         ArrayList                                                             LinkList
+  ------------------------------------------------------------------------------------------------------------------
+  - ArrayList act as List.                                                       -Linklist act as List and deque
+
+  -The underline data structure of arraylist is                                  - the underline data structure of linklist is "doubly linklist"
+  growable and resizable array.                                                    or "circular link list"
+
+  -Elemnt are store in contiguous memory element                               - Element are not store in contiguous memory locations(they store elemnt using next and pre elemnt pointer)
+
+  -Arrylist are good for retrieval operation.                                    - linklist is good for insertion and deletion operation
+
+  -Arraylist are worst for insertion and deletion                               - Linklist are worst for retrieval operation.
+  operation.

@@ -1,0 +1,26 @@
+JDk 1.0 version
+
+-In this version java provides classes and interfaces in which we can store the data
+for eg. vector,stack,HshTable,Propertied Dictoniary
+
+-----------------------------------------------------------------
+-JDK 1.2 version
+
+-In this version collections framework was introduced.
+
+-----------vector----------------
+
+-vector is a legacy class which was intoduced in jdk 1.0 version.
+
+-vector is an implimented class of list interface, which is present in java.util package
+
+Syntax-
+
+package java.util;
+
+   class vector implements List{
+
+   //constructor
+   //method
+
+   }
