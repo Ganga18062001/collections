@@ -18,9 +18,58 @@ Syntax-
 
 package java.util;
 
-   class vector implements List{
+   class vector implements List,clonable,RandomAccess,serializable{
 
    //constructor
    //method
 
    }
+
+   -----------------------------------------------------------------------------------
+   -The underline data-structure of vector is "growable array" or "resizable array".
+
+   NOte -All legacy class are synchronized.
+
+   -------------------------------------------------------------------------------
+   -Properties of vector:-
+
+   -Vector is an index based data-structure
+   -vector can store diffrent data-type or heterogenous
+   -we can store duplicate elements.
+   -we can store multiple null values.
+   - vector follow the insertion order
+   - vector does not follow sorting order
+   -vector are synchronized collection.
+
+   ------------------------------------------------------
+   Methods of vector classes
+
+   - It contain list and collection interface methods
+   -addElements(Object obj)
+   -firstElemnt()
+   -lastElement()
+   -removeElemnt(Object obj)
+   --removeElementAt(int index)
+   -removeAllElements();
+   -capacity()//by default 10 cap
+
+
+   ---------------arryList vs vector---------------------------------------------------
+
+                                ArrayList                                      vector
+  --------------------------------------------------------------------------------------------------------------------------
+  -ArrayList was introduced in jDK 1.2 version                 -Vector was introduced in jdk 1.0 version
+
+  -ArrayList is not  legacy class.                              - vector is legacy class.
+
+  -ArrayList are non-synchronized collection                     - vector is synchronized collection.
+
+  -ArrayList is not thread-safe.                                 - vector is thread safe.
+
+  -IN case of arrayList ,application speed is fast               - IN case of vector application speed id slow.
+
+  -Arraylist does not guarantee for data consistency.            - vector provides the guaranties for data-consistency.
+
+  -capacity of new arrayList is = (oldCapacity * 3)/2+1.           - new capacity = (oldCapacity *2);
+
+

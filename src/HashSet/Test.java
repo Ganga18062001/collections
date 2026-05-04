@@ -12,7 +12,11 @@ public class Test {
         h.add(300);
         h.add(null);
         h.add(null);
+
+
         System.out.println(h);
+        h.remove(300);
+        System.out.println(h.size());
         Iterator it = h.iterator();
 
         while (it.hasNext()){

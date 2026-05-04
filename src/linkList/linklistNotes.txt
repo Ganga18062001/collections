@@ -51,7 +51,7 @@ have to manage previous and next node address
   -The underline data structure of arraylist is                                  - the underline data structure of linklist is "doubly linklist"
   growable and resizable array.                                                    or "circular link list"
 
-  -Elemnt are store in contiguous memory element                               - Element are not store in contiguous memory locations(they store elemnt using next and pre elemnt pointer)
+  -Elemnt are store in contiguous memory location                                - Element are not store in contiguous memory locations(they store elemnt using next and pre elemnt pointer)
 
   -Arrylist are good for retrieval operation.                                    - linklist is good for insertion and deletion operation
 
