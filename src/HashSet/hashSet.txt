@@ -1,0 +1,36 @@
+------------HashSet----------------
+
+-It is an implemented class of set interface which is present in
+java..util package.
+
+-syntax =>
+
+   package java.util
+    class HashSet omplements Set{
+
+    //constructor
+    //methods
+    }
+
+
+    -HashSet underline data-structure is "HashTable".
+
+    -HashSet backup of map.
+
+    -HashSet was introduced in 1.2 version.
+
+    ----------properties of hashset-------
+
+    -hashset is not index based data structure , they store data
+    according to their hashcode value.
+
+    -HAshset does not store duplicate elements.
+
+    -hashset can not be store multiple null value.
+
+    -hashSet can store different data-types i.e. heterogeneous
+
+    -hashSet does not follow insertion order and sorting order.
+
+    - HashSet are non-synchronized data-structure.
+

@@ -1,0 +1,38 @@
+-------------stack-------------------------
+
+-stack is a legacy class which is introduced in jdk 1.0 version
+
+
+-stack is a child class of vector class.
+
+- It is present in java.util package.
+
+-syntax -
+         class Stack extends vector{
+
+         //constructor
+         //methods
+         }
+
+
+
+ ----------properties of stack------------------
+
+ -Stack class was designed on the basic of LIFO.
+
+ -Stack can be implemented on the basic of array,arrayList,LinkList or
+ vector.
+
+ -Stack is an index based data-structure.
+
+ ----------constructor--------------------------
+
+ -Stack();
+
+ ------------method------
+
+ -push();
+ -pop();
+ -peak();
+ -search()
+ -empty()
