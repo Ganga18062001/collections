@@ -1,0 +1,46 @@
+------------treeSet--------------------------------------
+
+-TreeSet is the direct implemented class of NavigableSet but indirectly
+implements sortedSet and set interface.
+
+-Syntax =>
+
+          package java.util;
+
+          class TreeSet implements NavigableSet{
+
+          //constructor
+          //methods
+          }
+
+
+   -TreeSet was introduced in jdk 1.2 version.
+
+   -TreeSet is underlined data-structure of "Balanced tree"   .
+
+   ----properties of TreeSet---------
+
+   -It is not an index based data structure.
+
+   -It does not follow insertion order.
+
+   -It follow the sorting order.
+
+   -It store homogenous elements .
+
+   -It can not store duplicate elements.
+
+   -It is non-synchronous data-structure.
+
+   -null value can not be inserted in tree set.
+
+   ------compareTo(Object obj)-----------------
+
+   -It is compareble interface method which is used to compare
+   the current object with specific object .
+
+   -It return
+   => +ve integer : If current object is greater than the specific object.
+   => -ve integer : If current object is less than the specific object
+   => 0           : If current object is equal to the specific object.
+

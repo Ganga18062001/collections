@@ -39,6 +39,7 @@ public class ListCursor {
 //        System.out.print(li+" ");
         System.out.println("----------------------------------");
        ll.set(50);
+       ll.set(60);
 
 
         System.out.println(li);
