@@ -1,0 +1,68 @@
+---------TreeMAp----------------------
+
+-It is implemented class of NavigableMap but it also inherits the properties of
+sortedMAp and Map interface.
+
+=> Syntax
+       package java.util;
+
+       class TreeMap implements NavigableMap{
+
+       //constructor
+       //methods
+       }
+
+   - It was introduced in jdk 1.2 version.
+
+   -TreeMap underline data-structure is "red-black tree";
+
+       ------------------red-black tree------------
+
+       -Every node is either red or black color
+
+       -The root node is always black.
+
+       -Every leaf node(NULL) is black.
+
+       -If a node is red , then both its children are black.
+
+       -For each node , all paths from the node to its descendant leaf
+       nodes contain the same number of black nodes.
+
+       --------properties of tree-map---------
+
+       -we store the data in key-value pair in which key should be unique
+       but value can be duplicate.
+
+       -TreeMap does not follw the insertion order but it follow sorting order acord keys.
+
+       -It can store homogenous and heterogeneous elements.(by default sorting in nature using homogenous data)
+
+       - comparable => natural / by default sorting
+       -heterogeneous we use comparator => custom sorting
+
+       -TreeMap can not store null values.
+
+       - TreeMap is non-synchronized data structure.
+
+
+       ---------------------------------------------
+       -ceillingEntry(100) ;
+       -cellingKey(10);
+
+       -This method check if 100 key is present then print ,if
+       not prsent it print next value;
+
+
+       -----------------------------------
+       floorEntry(100);
+
+       --This method check if 100 key is present then print ,if
+               not prsent it previous  value print;
+
+        -------------------------
+        get();
+
+        -when we use get() method the key is not present it print
+        null value;
+

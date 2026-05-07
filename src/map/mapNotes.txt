@@ -1,0 +1,44 @@
+----------MAp---------
+
+-Map is an interface  which is present in
+java.util package.
+
+-Map does not extend to the collection interface.
+
+-Map was introduced in jdk 1.2 version.
+
+-Syntax =>
+
+package java.util;
+
+public interface Map{
+
+//method
+}
+
+--------hierarchy of map interface-----------------
+
+
+                                                                 Map (Interface)
+                                                                      |
+                                                      -------------------------------------
+                                                      |           |            |           |
+                                                   HashMap     LinkedHashMap  SortedMap   Hashtable
+                                                                                  |
+                                                                              NavigableMap
+                                                                                   |
+                                                                                TreeMap
+
+-------properties of MAp--------------------
+
+-Map store the data in key-value pair.
+
+-In map key should be unique but value can be duplicate.
+
+-In map , we can store maximum one null value in key but
+in values we can store multiple null values.
+
+-Map does not follow the sorting and insertion order.
+
+
+

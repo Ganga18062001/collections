@@ -11,7 +11,7 @@ public class Display {
 //        ts.add("cccc");
 //        ts.add(10);
 //        ts.add(2);
-//        ts.add(3);
+   //     ts.add(3);
         ts.add(true);
         ts.add(false);
         ts.add(true);

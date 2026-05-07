@@ -126,7 +126,7 @@ element only in forward direction.                                forward and ba
 -Enumeration is a cursor , which is used to retrive
 collection object one by one.
 
--Enumeration was introduce in jdk 10 version.
+-Enumeration was introduce in jdk 1.0 version.
 
 -Enumeration cursor is used with legacy classes
 i.e vector and stack.

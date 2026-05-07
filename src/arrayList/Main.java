@@ -13,6 +13,8 @@ public class Main {
         a1.add("tdit");
         a1.add(false);
         a1.add(false);
+        System.out.println(a1.containsAll(a1));
+
 
         System.out.println(a1);
         a1.remove(0);

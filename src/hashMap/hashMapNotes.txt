@@ -1,0 +1,50 @@
+------------hashMap---------------
+
+-HashMap ia an implemented class os map interface.
+
+=> Syntax :
+        package java.util;
+        class HashMap implements Map{
+        //constructor
+        //methods
+        }
+
+
+  -HashMap was introduced in jdk 1.2 version.
+
+  -HashMap underlined data structure is HashTable.
+
+  ------propertirs of map ---------------
+  -HashMAp store the data in key-value pair.
+
+  -Entry means collection of one key & value.
+
+  -In hashMap , key must be unique and value can be allowed duplicate.
+
+  -hashMap contains max null value in key but value can be store multiple
+  null value.
+
+  -hashMap can store heterogeneous elements.
+
+  -hashMap does not follow sorting and insertion order.
+
+  -hashap is non synchronizes data structure.
+
+  -It is not thread safe.
+
+
+
+  --------------------------------------
+  -load factor is a threshold , when we add the element in hashMap
+  and it crosses this threshold the capacity of HashMap will get increased.
+
+  -default load factor of hashMap is .75.
+
+  ----------------------------------------------------------
+  we can retrive HashMap elements by 2 ways :=
+
+  1) Using set and Iterator interface
+
+  2) Directly i.e without using set && Iterator interface
+
+
