@@ -13,15 +13,17 @@ public class Main {
         a1.add("tdit");
         a1.add(false);
         a1.add(false);
-        System.out.println(a1.containsAll(a1));
+//        System.out.println(a1.containsAll(a1));
+        System.out.println(a1);
+        System.out.println(a1.get(0));
 
 
-        System.out.println(a1);
-        a1.remove(0);
-        System.out.println(a1);
-        a1.set(2,"alliArjun");
-        System.out.println(a1);
-        System.out.println(a1.indexOf("alliArjun"));
+//        System.out.println(a1);
+//        a1.remove(0);
+//        System.out.println(a1);
+//        a1.set(2,"alliArjun");
+//        System.out.println(a1);
+//        System.out.println(a1.indexOf("alliArjun"));
 //        System.out.println(a1.contains("tdit"));
 //        System.out.println(a1.size());
 //

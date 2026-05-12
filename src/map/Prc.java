@@ -20,8 +20,8 @@ public class Prc {
         //System.out.println(map.containsValue("cc"));
 
         System.out.println(map);
-        System.out.println(map.remove(102));
-        System.out.println(map);
+//        System.out.println(map.remove(102));
+//        System.out.println(map);
 
     }
 }

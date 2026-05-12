@@ -1,0 +1,61 @@
+------------hashTable-----------------
+
+-HashTable is direct implemented class of map interface.
+
+=> Syntax :-
+
+package java.util;
+
+class HashTablle implements Map{
+
+//constructor
+//methods
+}
+
+-It is legacy class and it indroduced in jdk 1.0 version.
+
+-HashTable underline data structure is hashTable.
+
+
+-=-----working of hashTable------------
+
+-hashTable intial capacity is 11.
+
+HashTAble ht = new Hashtable();
+
+ht.put(102,"aaa");
+
+102 % 11 = 3
+
+- it store key and value in hashtable at 3 index.
+
+-If same index return two object then this situation called
+hash collijan , by default internally create another node i.e linklist
+
+-data is retrive top to bottom and  right to left
+
+
+--------properties-------------
+
+-Hashtable is legecy class beacuse it is introduced in jdk 1.0 version
+-hashTable is synchronized.
+-no null key or valaue it throw expection
+-slower than hashMap
+-in case of collisan only linklist use
+-all method is synchronized that why java introduced concurrent hash map
+
+-------------------------ConcurrentHashMap----------------------
+
+java 7----> segment based locking
+divide into  16 segement  ---->each segemnet independ lock
+
+-only the segement being written to or read from is locked
+
+-read : do not require locking unless there is a write operation happening on the same segment
+
+-write : lock
+
+------java 8 --> no segemention
+
+-compare and swap approach       --> no locking except resizing or collision
+

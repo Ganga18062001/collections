@@ -7,16 +7,25 @@ import java.util.Set;
 
 public class HashMapPrc {
     public static void main(String[] args) {
-        HashMap<Integer,String> hp = new HashMap();
+        HashMap<Integer,String> hp = new HashMap<>();
         hp.put(100,"aaa");
-        hp.put(111,"bbb");
-        hp.put(222,"ccc");
-        hp.put(333,"ddd");
+        hp.put(101,"bbb");
+        hp.put(102,"ccc");
+        hp.put(103,"ddd");
+//        hp.put(null,100);
+//        hp.put(null,"vvv");
 
         System.out.println(hp);
-        for(Map.Entry me : hp.entrySet()){
-            System.out.println(me.getKey());
-//            System.out.println(me.getValue());
+        //first way of retrive data
+//        for(Map.Entry me : hp.entrySet()){
+//            System.out.println(me);
+////            System.out.println(me.getValue());
+//        }
+
+        //Secound way to retrive data
+        Set<Integer> keys = hp.keySet();
+        for(Integer key : keys){
+            System.out.println(key+" "+hp.get(key));
         }
 
      //   Set set = hp.entrySet();

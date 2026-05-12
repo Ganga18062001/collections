@@ -1,6 +1,13 @@
 ------------hashMap---------------
 
--HashMap ia an implemented class os map interface.
+-HashMap ia an implemented class of map interface.
+-Internally hashmap uses ;Array + Linked List + Red Black Tree
+-Internally HashMap uses an array of buckets.
+-Each bucket stores nodes containing key-value pairs.
+-Hashing is used to calculate bucket index.
+-Collisions are handled using LinkedList,
+-from Java 8 onward, buckets are converted to Red Black Trees.
+
 
 => Syntax :
         package java.util;
@@ -14,7 +21,7 @@
 
   -HashMap underlined data structure is HashTable.
 
-  ------propertirs of map ---------------
+  ------properties of map ---------------
   -HashMAp store the data in key-value pair.
 
   -Entry means collection of one key & value.
@@ -35,7 +42,7 @@
 
 
   --------------------------------------
-  -load factor is a threshold , when we add the element in hashMap
+  -load factor is a threshold(lamda ()= k(const) , when we add the element in hashMap
   and it crosses this threshold the capacity of HashMap will get increased.
 
   -default load factor of hashMap is .75.
@@ -46,5 +53,14 @@
   1) Using set and Iterator interface
 
   2) Directly i.e without using set && Iterator interface
+
+
+  -------------------------------------------------------
+  Implenebtion of hashMap
+  ---------------------------------------------------------
+  -each index we have called bucket.
+
+  -
+
 
 
